@@ -1,0 +1,596 @@
+[
+  {
+    "$id": "7f673be0-9853-4dc1-948d-bda67545ee5b",
+    "user_id": "user_3MHwJeLjqDrIwASxBFPDBDwKHu6",
+    "repo_url": "https://github.com/Harshitver0511/code-saya",
+    "repo_name": "Harshitver0511/code-saya",
+    "status": "COMPLETED",
+    "progress_percentage": 100,
+    "current_step": "COMPLETED",
+    "tokens_used": 0,
+    "created_at": "2026-11-18T16:55:27.314Z",
+    "provider_type": "OPENROUTER",
+    "selected_model": "openrouter/free",
+    "logs": [
+      {
+        "ts": 1795020927920,
+        "level": "info",
+        "message": "Scanning repository Harshitver0511/code-saya..."
+      },
+      {
+        "ts": 1795020930100,
+        "level": "success",
+        "message": "Found 88 files, 4 config files"
+      },
+      {
+        "ts": 1795020930101,
+        "level": "info",
+        "message": "Starting AI pipeline with model: openrouter/free"
+      },
+      {
+        "ts": 1795020930102,
+        "level": "info",
+        "message": "Rate limits: 10 concurrent, 200 RPM"
+      },
+      {
+        "ts": 1795020930122,
+        "level": "info",
+        "message": "[15%] Planning multi-pass domain taxonomy from repository structure..."
+      },
+      {
+        "ts": 1795021003351,
+        "level": "info",
+        "message": "[25%] Identified 1 taxonomy modules"
+      },
+      {
+        "ts": 1795021003358,
+        "level": "info",
+        "message": "[30%] Generating hierarchical documentation catalog (50+ nested sub-articles)..."
+      },
+      {
+        "ts": 1795021071389,
+        "level": "info",
+        "message": "[35%] Planned 0 articles across nested domain folders"
+      },
+      {
+        "ts": 1795021071394,
+        "level": "info",
+        "message": "[40%] Discovering tech-stack components & generating knowledge module suites..."
+      },
+      {
+        "ts": 1795021150779,
+        "level": "info",
+        "message": "[45%] Discovered 1 technology stack topics"
+      },
+      {
+        "ts": 1795021150781,
+        "level": "info",
+        "message": "[45%] Generating 6-file knowledge suite 1/1: Monorepo Build & Orchestration"
+      },
+      {
+        "ts": 1795021187022,
+        "level": "info",
+        "message": "[70%] Writing technical documentation articles (starting)..."
+      },
+      {
+        "ts": 1795021187029,
+        "level": "success",
+        "message": "Generated 10 documentation files"
+      },
+      {
+        "ts": 1795021187030,
+        "level": "info",
+        "message": "Creating pull request with 10 files..."
+      },
+      {
+        "ts": 1795021187651,
+        "level": "info",
+        "message": "Authenticated as @Harshitver0511"
+      },
+      {
+        "ts": 1795021188120,
+        "level": "info",
+        "message": "Push access confirmed on Harshitver0511/code-saya — creating direct PR"
+      },
+      {
+        "ts": 1795021188987,
+        "level": "info",
+        "message": "Creating Git blobs for 10 generated files..."
+      },
+      {
+        "ts": 1795021191862,
+        "level": "info",
+        "message": "Branch created: docs/saaya-repowiki-1795021191005 with 10 files"
+      },
+      {
+        "ts": 1795021193337,
+        "level": "info",
+        "message": "✅ PR created: https://github.com/Harshitver0511/code-saya/pull/1"
+      },
+      {
+        "ts": 1795021193339,
+        "level": "success",
+        "message": "✅ Done! PR created: https://github.com/Harshitver0511/code-saya/pull/1"
+      }
+    ],
+    "checkpoint": {
+      "fileTree": [
+        {
+          "path": ".gitignore",
+          "type": "file",
+          "size": 535
+        },
+        {
+          "path": "AGENTS.md",
+          "type": "file",
+          "size": 327
+        },
+        {
+          "path": "CLAUDE.md",
+          "type": "file",
+          "size": 11
+        },
+        {
+          "path": "README.md",
+          "type": "file",
+          "size": 8938
+        },
+        {
+          "path": "app",
+          "type": "dir"
+        },
+        {
+          "path": "app/(auth)",
+          "type": "dir"
+        },
+        {
+          "path": "app/(auth)/sign-in",
+          "type": "dir"
+        },
+        {
+          "path": "app/(auth)/sign-in/[[...sign-in]]",
+          "type": "dir"
+        },
+        {
+          "path": "app/(auth)/sign-in/[[...sign-in]]/page.tsx",
+          "type": "file",
+          "size": 775
+        },
+        {
+          "path": "app/(auth)/sign-up",
+          "type": "dir"
+        },
+        {
+          "path": "app/(auth)/sign-up/[[...sign-up]]",
+          "type": "dir"
+        },
+        {
+          "path": "app/(auth)/sign-up/[[...sign-up]]/page.tsx",
+          "type": "file",
+          "size": 774
+        },
+        {
+          "path": "app/(dashboard)",
+          "type": "dir"
+        },
+        {
+          "path": "app/(dashboard)/dashboard",
+          "type": "dir"
+        },
+        {
+          "path": "app/(dashboard)/dashboard/new",
+          "type": "dir"
+        },
+        {
+          "path": "app/(dashboard)/dashboard/new/page.tsx",
+          "type": "file",
+          "size": 22855
+        },
+        {
+          "path": "app/(dashboard)/dashboard/page.tsx",
+          "type": "file",
+          "size": 12971
+        },
+        {
+          "path": "app/(dashboard)/jobs",
+          "type": "dir"
+        },
+        {
+          "path": "app/(dashboard)/jobs/[jobId]",
+          "type": "dir"
+        },
+        {
+          "path": "app/(dashboard)/jobs/[jobId]/page.tsx",
+          "type": "file",
+          "size": 17273
+        },
+        {
+          "path": "app/(dashboard)/layout.tsx",
+          "type": "file",
+          "size": 3233
+        },
+        {
+          "path": "app/(dashboard)/settings",
+          "type": "dir"
+        },
+        {
+          "path": "app/(dashboard)/settings/page.tsx",
+          "type": "file",
+          "size": 11380
+        },
+        {
+          "path": "app/api",
+          "type": "dir"
+        },
+        {
+          "path": "app/api/generate",
+          "type": "dir"
+        },
+        {
+          "path": "app/api/generate/route.ts",
+          "type": "file",
+          "size": 13594
+        },
+        {
+          "path": "app/api/jobs",
+          "type": "dir"
+        },
+        {
+          "path": "app/api/jobs/[jobId]",
+          "type": "dir"
+        },
+        {
+          "path": "app/api/jobs/[jobId]/route.ts",
+          "type": "file",
+          "size": 4108
+        },
+        {
+          "path": "app/api/jobs/route.ts",
+          "type": "file",
+          "size": 1311
+        },
+        {
+          "path": "app/api/openrouter",
+          "type": "dir"
+        },
+        {
+          "path": "app/api/openrouter/auth",
+          "type": "dir"
+        },
+        {
+          "path": "app/api/openrouter/auth/route.ts",
+          "type": "file",
+          "size": 3755
+        },
+        {
+          "path": "app/api/openrouter/models",
+          "type": "dir"
+        },
+        {
+          "path": "app/api/openrouter/models/route.ts",
+          "type": "file",
+          "size": 2749
+        },
+        {
+          "path": "app/api/settings",
+          "type": "dir"
+        },
+        {
+          "path": "app/api/settings/route.ts",
+          "type": "file",
+          "size": 6738
+        },
+        {
+          "path": "app/api/webhooks",
+          "type": "dir"
+        },
+        {
+          "path": "app/api/webhooks/appwrite",
+          "type": "dir"
+        },
+        {
+          "path": "app/api/webhooks/appwrite/route.ts",
+          "type": "file",
+          "size": 578
+        },
+        {
+          "path": "app/favicon.ico",
+          "type": "file",
+          "size": 25931
+        },
+        {
+          "path": "app/globals.css",
+          "type": "file",
+          "size": 6562
+        },
+        {
+          "path": "app/icon.png",
+          "type": "file",
+          "size": 26358
+        },
+        {
+          "path": "app/layout.tsx",
+          "type": "file",
+          "size": 743
+        },
+        {
+          "path": "app/page.tsx",
+          "type": "file",
+          "size": 1354
+        },
+        {
+          "path": "components",
+          "type": "dir"
+        },
+        {
+          "path": "components/landing",
+          "type": "dir"
+        },
+        {
+          "path": "components/landing/bento-grid.tsx",
+          "type": "file",
+          "size": 8553
+        },
+        {
+          "path": "components/landing/code-showcase.tsx",
+          "type": "file",
+          "size": 7059
+        },
+        {
+          "path": "components/landing/cta-section.tsx",
+          "type": "file",
+          "size": 3949
+        },
+        {
+          "path": "components/landing/footer.tsx",
+          "type": "file",
+          "size": 2108
+        },
+        {
+          "path": "components/landing/hero.tsx",
+          "type": "file",
+          "size": 13139
+        },
+        {
+          "path": "components/landing/navbar.tsx",
+          "type": "file",
+          "size": 3236
+        },
+        {
+          "path": "components/landing/stats-counter.tsx",
+          "type": "file",
+          "size": 2975
+        },
+        {
+          "path": "components/landing/workflow-steps.tsx",
+          "type": "file",
+          "size": 6942
+        },
+        {
+          "path": "eslint.config.mjs",
+          "type": "file",
+          "size": 465
+        },
+        {
+          "path": "katana.png",
+          "type": "file",
+          "size": 26358
+        },
+        {
+          "path": "lib",
+          "type": "dir"
+        },
+        {
+          "path": "lib/ai",
+          "type": "dir"
+        },
+        {
+          "path": "lib/ai/job-store.ts",
+          "type": "file",
+          "size": 3178
+        },
+        {
+          "path": "lib/ai/pipeline.ts",
+          "type": "file",
+          "size": 23328
+        },
+        {
+          "path": "lib/ai/provider.ts",
+          "type": "file",
+          "size": 1453
+        },
+        {
+          "path": "lib/ai/rate-limiter.ts",
+          "type": "file",
+          "size": 2827
+        },
+        {
+          "path": "lib/ai/scanner.ts",
+          "type": "file",
+          "size": 4143
+        },
+        {
+          "path": "lib/ai/tech-extractor.ts",
+          "type": "file",
+          "size": 6005
+        },
+        {
+          "path": "lib/appwrite",
+          "type": "dir"
+        },
+        {
+          "path": "lib/appwrite/client.ts",
+          "type": "file",
+          "size": 609
+        },
+        {
+          "path": "lib/appwrite/server.ts",
+          "type": "file",
+          "size": 757
+        },
+        {
+          "path": "lib/github",
+          "type": "dir"
+        },
+        {
+          "path": "lib/github/pr-automation.ts",
+          "type": "file",
+          "size": 11017
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "file",
+          "size": 169
+        },
+        {
+          "path": "middleware.ts",
+          "type": "file",
+          "size": 459
+        },
+        {
+          "path": "next.config.ts",
+          "type": "file",
+          "size": 359
+        },
+        {
+          "path": "package-lock.json",
+          "type": "file",
+          "size": 263627
+        },
+        {
+          "path": "package.json",
+          "type": "file",
+          "size": 1070
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "type": "file",
+          "size": 167667
+        },
+        {
+          "path": "postcss.config.mjs",
+          "type": "file",
+          "size": 94
+        },
+        {
+          "path": "public",
+          "type": "dir"
+        },
+        {
+          "path": "public/file.svg",
+          "type": "file",
+          "size": 391
+        },
+        {
+          "path": "public/globe.svg",
+          "type": "file",
+          "size": 1035
+        },
+        {
+          "path": "public/katana.png",
+          "type": "file",
+          "size": 26358
+        },
+        {
+          "path": "public/logo.png",
+          "type": "file",
+          "size": 26358
+        },
+        {
+          "path": "public/next.svg",
+          "type": "file",
+          "size": 1375
+        },
+        {
+          "path": "public/vercel.svg",
+          "type": "file",
+          "size": 128
+        },
+        {
+          "path": "public/window.svg",
+          "type": "file",
+          "size": 385
+        },
+        {
+          "path": "tsconfig.json",
+          "type": "file",
+          "size": 666
+        },
+        {
+          "path": "types",
+          "type": "dir"
+        },
+        {
+          "path": "types/saaya.ts",
+          "type": "file",
+          "size": 3534
+        }
+      ],
+      "configFiles": {
+        "package.json": "{\n  \"name\": \"repo-saaya\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"scripts\": {\n    \"dev\": \"next dev\",\n    \"build\": \"next build\",\n    \"start\": \"next start\",\n    \"lint\": \"eslint\"\n  },\n  \"dependencies\": {\n    \"@clerk/nextjs\": \"^7.6.1\",\n    \"@langchain/core\": \"^1.2.3\",\n    \"@langchain/langgraph\": \"^1.4.8\",\n    \"@langchain/openai\": \"^1.5.5\",\n    \"@octokit/rest\": \"^22.0.1\",\n    \"appwrite\": \"^26.2.0\",\n    \"class-variance-authority\": \"^0.7.1\",\n    \"clsx\": \"^2.1.1\",\n    \"framer-motion\": \"^12.42.2\",\n    \"gsap\": \"^3.15.0\",\n    \"lucide-react\": \"^1.27.0\",\n    \"next\": \"16.2.12\",\n    \"node-appwrite\": \"^27.1.0\",\n    \"openai\": \"^6.49.0\",\n    \"react\": \"19.2.4\",\n    \"react-dom\": \"19.2.4\",\n    \"tailwind-merge\": \"^3.6.0\",\n    \"uuid\": \"^14.0.1\"\n  },\n  \"devDependencies\": {\n    \"@tailwindcss/postcss\": \"^4\",\n    \"@types/node\": \"^20\",\n    \"@types/react\": \"^19\",\n    \"@types/react-dom\": \"^19\",\n    \"@types/uuid\": \"^10.0.0\",\n    \"dotenv\": \"^17.4.2\",\n    \"eslint\": \"^9\",\n    \"eslint-config-next\": \"16.2.12\",\n    \"tailwindcss\": \"^4\",\n    \"tsx\": \"^4.23.1\",\n    \"typescript\": \"^5\"\n  }\n}\n",
+        "next.config.ts": "import type { NextConfig } from \"next\";\n\nconst nextConfig: NextConfig = {\n  experimental: {\n    serverActions: {\n      bodySizeLimit: \"10mb\",\n    },\n  },\n  images: {\n    remotePatterns: [\n      { protocol: \"https\", hostname: \"img.clerk.com\" },\n      { protocol: \"https\", hostname: \"avatars.githubusercontent.com\" },\n    ],\n  },\n};\n\nexport default nextConfig;\n",
+        "README.md": "<p align=\"center\">\n  <img src=\"katana.png\" alt=\"Saaya Logo\" width=\"180\">\n</p>\n\n<!-- <p align=\"center\">\n  <img src=\"public/banner.png\" alt=\"Code Saaya\" width=\"100%\">\n</p> -->\n\n```\n  ██████╗  ██████╗ ██████╗ ███████╗      ███████╗ █████╗  █████╗ ██╗   ██╗█████╗ \n ██╔════╝ ██╔═══██╗██╔══██╗██╔════╝      ██╔════╝██╔══██╗██╔══██╗╚██╗ ██╔╝██╔══██╗\n ██║      ██║   ██║██║  ██║█████╗  █████╗███████╗███████║███████║ ╚████╔╝ ███████║\n ██║      ██║   ██║██║  ██║██╔══╝  ╚════╝╚════██║██╔══██║██╔══██║  ╚██╔╝  ██╔══██╗\n ╚██████╗ ╚██████╔╝██████╔╝███████╗      ███████║██║  ██║██║  ██║   ██║   ██║  ██║\n  ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝      ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝\n```\n\n<p align=\"center\">\n  <a href=\"https://github.com/anurag3407/code-saaya\">Code Saaya Engine</a> | <a href=\"https://github.com/anurag3407/code-saaya\">GitHub Repository</a>\n</p>\n<p align=\"center\">\n  <a href=\"https://github.com/anurag3407/code-saaya\"><img src=\"https://img.shields.io/badge/Docs-code--saaya-FFD700?style=for-the-badge\" alt=\"Documentation\"></a>\n  <a href=\"https://github.com/anurag3407/code-saaya/blob/main/LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-green?style=for-the-badge\" alt=\"License: MIT\"></a>\n  <a href=\"https://github.com/anurag3407/code-saaya\"><img src=\"https://img.shields.io/badge/Built%20by-SaayaLabs-blueviolet?style=for-the-badge\" alt=\"Built by SaayaLabs\"></a>\n</p>\n\n**The autonomous AI repository knowledge & documentation engine built by SaayaLabs.** It turns any software repository into a pre-indexed, enterprise-grade knowledge base for human engineers and AI coding agents (**Claude Code**, **Antigravity**, **Cursor**, **Aider**, **Devin**). Powered by a stateful **LangGraph multi-agent pipeline**, it extracts deep database schemas, API contracts, async worker queues, and 6-file technology knowledge modules, auto-delivering `.saaya/repowiki/`, `CLAUDE.md`, and `AGENTS.md` directly via GitHub Pull Requests.\n\nUse any AI model you want — OpenRouter (Claude 3.5 Sonnet, GPT-4o, DeepSeek R1, Llama 3.3), OpenAI API, or custom local endpoints (Ollama, vLLM). Switch models with zero code changes or lock-in.\n\n<table>\n<tr><td><b>Multi-Pass LangGraph Pipeline</b></td><td>Stateful execution graph orchestrating specialized AI nodes: <code>planTaxonomy</code> → <code>generateCatalogs</code> → <code>generateModuleCards</code> → <code>writeArticles</code> → <code>buildMetadata</code>. Resilient checkpointing allows jobs to resume seamlessly.</td></tr>\n<tr><td><b>AI Agent Auto-Discovery</b></td><td>Automatically generates root <code>CLAUDE.md</code> and <code>AGENTS.md</code> guidelines. Coding agents (Claude Code, Antigravity, Cursor, Aider) auto-read repo architecture, database schemas, coding rules, and verification commands upon project load.</td></tr>\n<tr><td><b>Dual Knowledge Architecture</b></td><td>Human-readable Markdown sub-articles with Mermaid sequence & ER diagrams, payload definitions, and file citations (<code>file://...</code>) + machine-parseable 6-file technology knowledge suites (<code>_module.yaml</code>).</td></tr>\n<tr><td><b>Tech-Stack Auto-Discovery</b></td><td>Scans imports and dependencies to identify 15–25 technology components (PostgreSQL, Redis, Better Auth, BullMQ, Pusher, Voyage AI, Turborepo) and generates 6-file documentation suites for each.</td></tr>\n<tr><td><b>Automated GitHub PR Delivery</b></td><td>Octokit-powered cross-repo PR automation using base64 blob tree construction. Supports direct branch commits or fork-and-PR workflows for public and private repositories.</td></tr>\n<tr><td><b>Token-Bucket Rate Limiter</b></td><td>Adaptive concurrency controller (<code>RateLimitedTaskQueue</code>) that dynamically throttles requests to respect free-tier and premium LLM rate limits without HTTP 429 errors.</td></tr>\n<tr><td><b>Realtime Logs & Job Controls</b></td><td>Live SSE/Appwrite terminal execution stream, log search & level filters (Info, Success, Warn, Error), log text export, and inline Pause, Resume, and Delete job controls.</td></tr>\n</table>\n\n---\n\n## Quick Setup & Local Installation\n\n### Prerequisites\n- **Node.js**: `v20.9.0` or higher\n- **npm** or **pnpm**\n- **Clerk Account**: For authentication keys\n- **Appwrite Instance**: Cloud or self-hosted project\n\n### 1. Clone the Repository\n\n```bash\ngit clone https://github.com/anurag3407/code-saaya.git\ncd code-saaya\n```\n\n### 2. Install Dependencies\n\n```bash\nnpm install\n```\n\n### 3. Configure Environment Variables\n\nCreate a `.env.local` file in the root directory:\n\n```env\n# Application URL\nNEXT_PUBLIC_APP_URL=http://localhost:3000\n\n# Clerk Authentication\nNEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...\nCLERK_SECRET_KEY=sk_test_...\nNEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in\nNEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up\n\n# Appwrite Database\nNEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1\nNEXT_PUBLIC_APPWRITE_PROJECT_ID=your_project_id\nAPPWRITE_API_KEY=your_admin_api_key\nAPPWRITE_DATABASE_ID=saaya_db\n\n# OpenRouter Integration\nOPENROUTER_AUTH_URL=https://openrouter.ai/auth\nOPENROUTER_API_URL=https://openrouter.ai/api/v1\nOPENROUTER_API_KEY=sk-or-v1-...\n\n# GitHub Access Token (for PR creation)\nGITHUB_TOKEN=ghp_...\n```\n\n### 4. Setup Database & Start Server\n\nInitialize Appwrite database collections and start the Next.js development server:\n\n```bash\nnpx tsx scripts/setup-appwrite.ts\nnpm run dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) in your browser to access the dashboard.\n\n---\n\n## Quick Reference\n\n| Action | Command / Location |\n| --- | --- |\n| Start Dev Server | `npm run dev` |\n| Initialize Appwrite DB | `npx tsx scripts/setup-appwrite.ts` |\n| Check TypeScript Types | `npx tsc --noEmit` |\n| Build Production Bundle | `npm run build` |\n| Run ESLint | `npm run lint` |\n| New Generation Wizard | Navigate to `/dashboard/new` |\n| AI Provider Settings | Navigate to `/settings` |\n\n---\n\n## Key Features Breakdown\n\n### 1. Multi-Agent Pipeline Graph\nSaaya's LangGraph engine breaks down documentation into distinct execution nodes:\n- `planTaxonomy`: Scans file trees & schemas to partition codebase into nested domain folders.\n- `generateCatalogs`: Plans 50–100+ nested sub-articles across architecture, database, APIs, workers, and frontend.\n- `generateModuleCards`: Auto-discovers tech stack components and writes 6-file module suites (`overview.md`, `architecture_design.md`, `tech_stack.md`, `coding_conventions.md`, `unique_setup_and_commands.md`, `_module.yaml`).\n- `writeArticles`: Writes deep Markdown articles with sequence diagrams, code contracts, and file citations (`file://...`).\n- `buildMetadata`: Connects `knowledge_relations` and links `CLAUDE.md` & `AGENTS.md` guidelines.\n\n### 2. Form Lock Validation\nThe generation wizard enforces strict step-by-step validation: Step 2 (\"AI Engine\") and model selection remain locked until a valid GitHub repository URL (`https://github.com/owner/repo`) is entered.\n\n### 3. Job Controls & Detailed Terminal Logs\n- **Pause / Resume**: Pause long-running generation jobs and resume execution from saved checkpoints.\n- **Delete / Cancel**: Cancel running jobs or remove job history documents.\n- **Terminal Filters**: Filter live logs by level (Info, Success, Warn, Error) or search keywords, and export logs to `.txt`.\n\n---\n\n## Architecture & Technology Stack\n\n| Layer | Technology |\n| --- | --- |\n| **Framework** | [Next.js 16 (App Router)](https://nextjs.org/) & React 19 |\n| **Language** | TypeScript |\n| **Styling & Motion** | Tailwind CSS v4, Framer Motion, GSAP, Lucide Icons |\n| **Authentication** | [Clerk](https://clerk.com/) (`@clerk/nextjs`) |\n| **Database & Realtime** | [Appwrite](https://appwrite.io/) (`node-appwrite`) |\n| **AI Orchestration** | LangGraph (`@langchain/langgraph`), OpenAI SDK |\n| **GitHub Automation** | `@octokit/rest` (Base64 Blob Git Trees) |\n\n---\n\n## Contributing\n\nWe welcome contributions! Please feel free to open issues or submit pull requests on [GitHub](https://github.com/anurag3407/code-saaya).\n\n```bash\ngit clone https://github.com/anurag3407/code-saaya.git\ncd code-saaya\nnpm install\nnpx tsc --noEmit\n```\n\n---\n\n## License\n\nMIT — see [LICENSE](LICENSE).\n\nBuilt with passion by SaayaLabs.\n",
+        "tsconfig.json": "{\n  \"compilerOptions\": {\n    \"target\": \"ES2017\",\n    \"lib\": [\"dom\", \"dom.iterable\", \"esnext\"],\n    \"allowJs\": true,\n    \"skipLibCheck\": true,\n    \"strict\": true,\n    \"noEmit\": true,\n    \"esModuleInterop\": true,\n    \"module\": \"esnext\",\n    \"moduleResolution\": \"bundler\",\n    \"resolveJsonModule\": true,\n    \"isolatedModules\": true,\n    \"jsx\": \"react-jsx\",\n    \"incremental\": true,\n    \"plugins\": [\n      {\n        \"name\": \"next\"\n      }\n    ],\n    \"paths\": {\n      \"@/*\": [\"./*\"]\n    }\n  },\n  \"include\": [\n    \"next-env.d.ts\",\n    \"**/*.ts\",\n    \"**/*.tsx\",\n    \".next/types/**/*.ts\",\n    \".next/dev/types/**/*.ts\",\n    \"**/*.mts\"\n  ],\n  \"exclude\": [\"node_modules\"]\n}\n"
+      },
+      "taxonomy": [
+        {
+          "module_path": "",
+          "dir_name": "code-saya",
+          "title": "code-saya",
+          "scope": [
+            "**"
+          ],
+          "source_files": [],
+          "children": [],
+          "depends_on": [],
+          "related_to": []
+        }
+      ],
+      "catalogs": [],
+      "generatedCards": [
+        {
+          "path": "knowledge/en/Monorepo Build & Orchestration/overview.md",
+          "content": "# Monorepo Build & Orchestration\n\nOverview documentation."
+        },
+        {
+          "path": "knowledge/en/Monorepo Build & Orchestration/architecture_design.md",
+          "content": "# Architecture & Design\n\nDesign documentation."
+        },
+        {
+          "path": "knowledge/en/Monorepo Build & Orchestration/tech_stack.md",
+          "content": "# Tech Stack\n\nStack details."
+        },
+        {
+          "path": "knowledge/en/Monorepo Build & Orchestration/coding_conventions.md",
+          "content": "# Coding Conventions\n\nConventions."
+        },
+        {
+          "path": "knowledge/en/Monorepo Build & Orchestration/unique_setup_and_commands.md",
+          "content": "# Setup & Commands\n\nSetup commands."
+        },
+        {
+          "path": "knowledge/en/Monorepo Build & Orchestration/_module.yaml",
+          "content": "schema_version: 1\ntitle: \"Monorepo Build & Orchestration\""
+        },
+        {
+          "path": "en/meta/repowiki-metadata.json",
+          "content": "{\n  \"knowledge_relations\": [],\n  \"wiki_catalogs\": [],\n  \"wiki_items\": [],\n  \"wiki_overview\": {\n    \"content\": \"# code-saya\\nAuto-generated enterprise knowledge base.\",\n    \"id\": \"57f1b876-bfd5-40b1-980e-7f9fca9c16d6\",\n    \"repo_id\": \"7f673be0-9853-4dc1-948d-bda67545ee5b\"\n  },\n  \"wiki_readme\": {\n    \"content\": \"<p align=\\\"center\\\">\\n  <img src=\\\"katana.png\\\" alt=\\\"Saaya Logo\\\" width=\\\"180\\\">\\n</p>\\n\\n<!-- <p align=\\\"center\\\">\\n  <img src=\\\"public/banner.png\\\" alt=\\\"Code Saaya\\\" width=\\\"100%\\\">\\n</p> -->\\n\\n```\\n  ██████╗  ██████╗ ██████╗ ███████╗      ███████╗ █████╗  █████╗ ██╗   ██╗█████╗ \\n ██╔════╝ ██╔═══██╗██╔══██╗██╔════╝      ██╔════╝██╔══██╗██╔══██╗╚██╗ ██╔╝██╔══██╗\\n ██║      ██║   ██║██║  ██║█████╗  █████╗███████╗███████║███████║ ╚████╔╝ ███████║\\n ██║      ██║   ██║██║  ██║██╔══╝  ╚════╝╚════██║██╔══██║██╔══██║  ╚██╔╝  ██╔══██╗\\n ╚██████╗ ╚██████╔╝██████╔╝███████╗      ███████║██║  ██║██║  ██║   ██║   ██║  ██║\\n  ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝      ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝\\n```\\n\\n<p align=\\\"center\\\">\\n  <a href=\\\"https://github.com/anurag3407/code-saaya\\\">Code Saaya Engine</a> | <a href=\\\"https://github.com/anurag3407/code-saaya\\\">GitHub Repository</a>\\n</p>\\n<p align=\\\"center\\\">\\n  <a href=\\\"https://github.com/anurag3407/code-saaya\\\"><img src=\\\"https://img.shields.io/badge/Docs-code--saaya-FFD700?style=for-the-badge\\\" alt=\\\"Documentation\\\"></a>\\n  <a href=\\\"https://github.com/anurag3407/code-saaya/blob/main/LICENSE\\\"><img src=\\\"https://img.shields.io/badge/License-MIT-green?style=for-the-badge\\\" alt=\\\"License: MIT\\\"></a>\\n  <a href=\\\"https://github.com/anurag3407/code-saaya\\\"><img src=\\\"https://img.shields.io/badge/Built%20by-SaayaLabs-blueviolet?style=for-the-badge\\\" alt=\\\"Built by SaayaLabs\\\"></a>\\n</p>\\n\\n**The autonomous AI repository knowledge & documentation engine built by SaayaLabs.** It turns any software repository into a pre-indexed, enterprise-grade knowledge base for human engineers and AI coding agents (**Claude Code**, **Antigravity**, **Cursor**, **Aider**, **Devin**). Powered by a stateful **LangGraph multi-agent pipeline**, it extracts deep database schemas, API contracts, async worker queues, and 6-file technology knowledge modules, auto-delivering `.saaya/repowiki/`, `CLAUDE.md`, and `AGENTS.md` directly via GitHub Pull Requests.\\n\\nUse any AI model you want — OpenRouter (Claude 3.5 Sonnet, GPT-4o, DeepSeek R1, Llama 3.3), OpenAI API, or custom local endpoints (Ollama, vLLM). Switch models with zero code changes or lock-in.\\n\\n<table>\\n<tr><td><b>Multi-Pass LangGraph Pipeline</b></td><td>Stateful execution graph orchestrating specialized AI nodes: <code>planTaxonomy</code> → <code>generateCatalogs</code> → <code>generateModuleCards</code> → <code>writeArticles</code> → <code>buildMetadata</code>. Resilient checkpointing allows jobs to resume seamlessly.</td></tr>\\n<tr><td><b>AI Agent Auto-Discovery</b></td><td>Automatically generates root <code>CLAUDE.md</code> and <code>AGENTS.md</code> guidelines. Coding agents (Claude Code, Antigravity, Cursor, Aider) auto-read repo architecture, database schemas, coding rules, and verification commands upon project load.</td></tr>\\n<tr><td><b>Dual Knowledge Architecture</b></td><td>Human-readable Markdown sub-articles with Mermaid sequence & ER diagrams, payload definitions, and file citations (<code>file://...</code>) + machine-parseable 6-file technology knowledge suites (<code>_module.yaml</code>).</td></tr>\\n<tr><td><b>Tech-Stack Auto-Discovery</b></td><td>Scans imports and dependencies to identify 15–25 technology components (PostgreSQL, Redis, Better Auth, BullMQ, Pusher, Voyage AI, Turborepo) and generates 6-file documentation suites for each.</td></tr>\\n<tr><td><b>Automated GitHub PR Delivery</b></td><td>Octokit-powered cross-repo PR automation using base64 blob tree construction. Supports direct branch commits or fork-and-PR workflows for public and private repositories.</td></tr>\\n<tr><td><b>Token-Bucket Rate Limiter</b></td><td>Adaptive concurrency controller (<code>RateLimitedTaskQueue</code>) that dynamically throttles requests to respect free-tier and premium LLM rate limits without HTTP 429 errors.</td></tr>\\n<tr><td><b>Realtime Logs & Job Controls</b></td><td>Live SSE/Appwrite terminal execution stream, log search & level filters (Info, Success, Warn, Error), log text export, and inline Pause, Resume, and Delete job controls.</td></tr>\\n</table>\\n\\n---\\n\\n## Quick Setup & Local Installation\\n\\n### Prerequisites\\n- **Node.js**: `v20.9.0` or higher\\n- **npm** or **pnpm**\\n- **Clerk Account**: For authentication keys\\n- **Appwrite Instance**: Cloud or self-hosted project\\n\\n### 1. Clone the Repository\\n\\n```bash\\ngit clone https://github.com/anurag3407/code-saaya.git\\ncd code-saaya\\n```\\n\\n### 2. Install Dependencies\\n\\n```bash\\nnpm install\\n```\\n\\n### 3. Configure Environment Variables\\n\\nCreate a `.env.local` file in the root directory:\\n\\n```env\\n# Application URL\\nNEXT_PUBLIC_APP_URL=http://localhost:3000\\n\\n# Clerk Authentication\\nNEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...\\nCLERK_SECRET_KEY=sk_test_...\\nNEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in\\nNEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up\\n\\n# Appwrite Database\\nNEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1\\nNEXT_PUBLIC_APPWRITE_PROJECT_ID=your_project_id\\nAPPWRITE_API_KEY=your_admin_api_key\\nAPPWRITE_DATABASE_ID=saaya_db\\n\\n# OpenRouter Integration\\nOPENROUTER_AUTH_URL=https://openrouter.ai/auth\\nOPENROUTER_API_URL=https://openrouter.ai/api/v1\\nOPENROUTER_API_KEY=sk-or-v1-...\\n\\n# GitHub Access Token (for PR creation)\\nGITHUB_TOKEN=ghp_...\\n```\\n\\n### 4. Setup Database & Start Server\\n\\nInitialize Appwrite database collections and start the Next.js development server:\\n\\n```bash\\nnpx tsx scripts/setup-appwrite.ts\\nnpm run dev\\n```\\n\\nOpen [http://localhost:3000](http://localhost:3000) in your browser to access the dashboard.\\n\\n---\\n\\n## Quick Reference\\n\\n| Action | Command / Location |\\n| --- | --- |\\n| Start Dev Server | `npm run dev` |\\n| Initialize Appwrite DB | `npx tsx scripts/setup-appwrite.ts` |\\n| Check TypeScript Types | `npx tsc --noEmit` |\\n| Build Production Bundle | `npm run build` |\\n| Run ESLint | `npm run lint` |\\n| New Generation Wizard | Navigate to `/dashboard/new` |\\n| AI Provider Settings | Navigate to `/settings` |\\n\\n---\\n\\n## Key Features Breakdown\\n\\n### 1. Multi-Agent Pipeline Graph\\nSaaya's LangGraph engine breaks down documentation into distinct execution nodes:\\n- `planTaxonomy`: Scans file trees & schemas to partition codebase into nested domain folders.\\n- `generateCatalogs`: Plans 50–100+ nested sub-articles across architecture, database, APIs, workers, and frontend.\\n- `generateModuleCards`: Auto-discovers tech stack components and writes 6-file module suites (`overview.md`, `architecture_design.md`, `tech_stack.md`, `coding_conventions.md`, `unique_setup_and_commands.md`, `_module.yaml`).\\n- `writeArticles`: Writes deep Markdown articles with sequence diagrams, code contracts, and file citations (`file://...`).\\n- `buildMetadata`: Connects `knowledge_relations` and links `CLAUDE.md` & `AGENTS.md` guidelines.\\n\\n### 2. Form Lock Validation\\nThe generation wizard enforces strict step-by-step validation: Step 2 (\\\"AI Engine\\\") and model selection remain locked until a valid GitHub repository URL (`https://github.com/owner/repo`) is entered.\\n\\n### 3. Job Controls & Detailed Terminal Logs\\n- **Pause / Resume**: Pause long-running generation jobs and resume execution from saved checkpoints.\\n- **Delete / Cancel**: Cancel running jobs or remove job history documents.\\n- **Terminal Filters**: Filter live logs by level (Info, Success, Warn, Error) or search keywords, and export logs to `.txt`.\\n\\n---\\n\\n## Architecture & Technology Stack\\n\\n| Layer | Technology |\\n| --- | --- |\\n| **Framework** | [Next.js 16 (App Router)](https://nextjs.org/) & React 19 |\\n| **Language** | TypeScript |\\n| **Styling & Motion** | Tailwind CSS v4, Framer Motion, GSAP, Lucide Icons |\\n| **Authentication** | [Clerk](https://clerk.com/) (`@clerk/nextjs`) |\\n| **Database & Realtime** | [Appwrite](https://appwrite.io/) (`node-appwrite`) |\\n| **AI Orchestration** | LangGraph (`@langchain/langgraph`), OpenAI SDK |\\n| **GitHub Automation** | `@octokit/rest` (Base64 Blob Git Trees) |\\n\\n---\\n\\n## Contributing\\n\\nWe welcome contributions! Please feel free to open issues or submit pull requests on [GitHub](https://github.com/anurag3407/code-saaya).\\n\\n```bash\\ngit clone https://github.com/anurag3407/code-saaya.git\\ncd code-saaya\\nnpm install\\nnpx tsc --noEmit\\n```\\n\\n---\\n\\n## License\\n\\nMIT — see [LICENSE](LICENSE).\\n\\nBuilt with passion by SaayaLabs.\\n\",\n    \"id\": \"a8e3cca0-e5a2-4c94-9139-3348f75a5ed2\",\n    \"repo_id\": \"7f673be0-9853-4dc1-948d-bda67545ee5b\"\n  },\n  \"wiki_repo\": {\n    \"id\": \"7f673be0-9853-4dc1-948d-bda67545ee5b\",\n    \"name\": \"code-saya\",\n    \"progress_status\": \"completed\",\n    \"wiki_present_status\": \"COMPLETED\"\n  }\n}"
+        },
+        {
+          "path": "knowledge/en/_index.yaml",
+          "content": "schema_version: 1\nlocale: en-US\nbranch: main\nnodes_managed: true\nexported_at: \"2026-11-18T16:59:47.027Z\"\nmodules:\n    \"\":\n        dir_name: code-saya\n        title: code-saya\n        scope:\n            - **\n        source_files: []\n        children: []\n        depends_on: []\n        related_to: []"
+        },
+        {
+          "path": "CLAUDE.md",
+          "content": "# AI Agent Guidance & Architectural Map (code-saya)\n\nThis repository includes a pre-indexed, multi-tier knowledge base and architectural documentation suite generated under `repowiki/` (or `.saaya/repowiki/`).\n\n## Essential Context References for AI Agents (Claude Code, Antigravity, Cursor, Aider, Devin)\nWhenever working on features, bug fixes, or refactoring in this repository, inspect these primary documentation maps first:\n\n\n\n## Coding Conventions & Build Commands\nRefer to specific technology knowledge suites under `repowiki/knowledge/en/`:\n1. `coding_conventions.md` — Code style, error handling, layering, and naming rules.\n2. `unique_setup_and_commands.md` — Exact build, run, and test execution commands.\n3. `architecture_design.md` — Structural boundaries, dependencies, and integration patterns.\n"
+        },
+        {
+          "path": "AGENTS.md",
+          "content": "# AI Agent Guidance & Architectural Map (code-saya)\n\nThis repository includes a pre-indexed, multi-tier knowledge base and architectural documentation suite generated under `repowiki/` (or `.saaya/repowiki/`).\n\n## Essential Context References for AI Agents (Claude Code, Antigravity, Cursor, Aider, Devin)\nWhenever working on features, bug fixes, or refactoring in this repository, inspect these primary documentation maps first:\n\n\n\n## Coding Conventions & Build Commands\nRefer to specific technology knowledge suites under `repowiki/knowledge/en/`:\n1. `coding_conventions.md` — Code style, error handling, layering, and naming rules.\n2. `unique_setup_and_commands.md` — Exact build, run, and test execution commands.\n3. `architecture_design.md` — Structural boundaries, dependencies, and integration patterns.\n"
+        }
+      ],
+      "generatedArticles": []
+    },
+    "pull_request_url": "https://github.com/Harshitver0511/code-saya/pull/1"
+  }
+]
